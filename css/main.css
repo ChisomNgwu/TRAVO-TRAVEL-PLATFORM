@@ -1,0 +1,377 @@
+
+/* tour gallery styling starts here */
+
+.tourGalleryContainer {
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 12rem;
+}
+
+.tourGalleryContainer h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #1e1e1e;
+    line-height: 1.5;
+    padding-inline: 2.8rem;
+}
+
+.tourGalleryWrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    padding-block: 2rem;
+}
+
+.tourGalleryItem {
+    margin-bottom: 0.4em;
+    position: relative;
+    transition: transform 0.5s ease;
+}
+
+.tourGalleryItem img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.tourGalleryItem p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(245, 244, 244, 0.205);
+}
+
+.tourGalleryItem:hover {
+    cursor: pointer;
+    transform: scale(1.1); 
+}
+
+
+.tourGalleryItem p:hover {
+    color: #fff;
+}
+
+/* tour gallery styling ends here */
+
+
+/* feedback section styling starts here */
+
+.feedbackContainer {
+    width: 100%;
+    background: #FF9F1C;
+    padding-top: 8rem;
+    padding-bottom: 20rem;
+}
+
+
+.testimonials {
+    width: 20%;
+    background-color: #fff;
+    padding: 1rem;
+    margin-inline: 8rem;
+    border-radius: 5rem;
+}
+
+
+.testimonials h4 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+.feedbackContainer h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: #1e1e1e;
+    line-height: 1.5;
+    padding-inline: 8rem;
+    padding-bottom: 2rem;
+}
+
+
+.feedbackSlideWrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+}
+
+
+.feedbackSlideItem {
+    width: 40%;
+    height: 30vh;
+    place-content: center;
+}
+
+
+.feedbackSlideItem p {
+    position: relative;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 2;
+    background-color: #fff;
+    padding: 3.7rem;
+    border-radius: 1.1rem;
+    box-shadow: 0  15px 15px rgba(0 , 0, 0, 0.3);
+}
+
+
+.feedbackSlideItem i {
+    position: absolute;
+    top: 1616px;
+    margin: 0 20rem;
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+
+
+.feedbackSlideItem p:hover {
+    cursor: pointer;
+    transform: scale(1.1); 
+    transition: transform ease-in-out 0.5s ;
+}
+
+
+.feedbackAuthor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+    gap: 2rem;
+}
+
+
+.feedbackAuthor  img{
+    width: 80px;
+    height: 80px;
+    border-radius: 505%;
+}
+
+.feedbackAuthor span {
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #fff;
+}
+
+/* feedback section styling ends here */
+
+
+/* professional team section styling starts here */
+
+.professionalTeamContainer {
+    width : 100%;
+    padding-top: 7rem;
+    padding-bottom: 8rem;
+}
+
+
+.professionalTeamContainer h1 {
+    font-size: 2.8em;
+    font-weight: bold;
+    padding-inline: 10%;
+    padding-bottom: 4rem;
+}
+
+
+.professionalTeamWrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+}
+
+
+.professionalTeamMember h3 {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: inherit ;
+    line-height: 1.5;
+    padding-top: 0.5rem;
+}
+
+
+.professionalTeamMember p {
+    text-align: center;
+    line-height: 1;
+}
+
+
+.professionalTeamMember img {
+    width: 280px;
+}
+
+/* professional team section styling ends here */
+
+
+/* booking tour section styling starts here */
+
+.bookingTourContainer {
+    width: 100%;
+    background-image: url(../image/booking\ tour\ background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+.bookingTourWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 15rem;
+    padding-bottom: 6.2rem;
+}
+
+
+.bookingTourWrapper h1{
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: 900;
+    color: white;
+    line-height: 1.7;
+}
+
+
+.bookingTourWrapper p{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+    line-height: 1.5;
+}
+
+
+.bookTourBtn {
+    width: 15%;
+    text-align: center;
+    margin-top: 8em;
+    padding: 1.2em;
+    border: solid 1px #fff;
+    border-radius: 2.8em;
+    background-color: #FF9F1C;
+    cursor: pointer;
+}
+
+
+.bookTourBtn a {
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 2;
+    color: #fff;
+}
+
+.bookTourBtn:hover {
+    background-color: transparent;
+    transform: scale(1.2); 
+    transition: transform ease-in-out 0.7s ;
+}
+
+
+.bookTourBtn a:hover {
+    color: #FF9F1C;
+}
+
+/* booking tour section styling ends here */
+
+
+/* FAQs section styling starts here */
+
+.FAQsContainer {
+    width: 100%;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+
+.FAQsContainer h1 {
+    font-size: 3em;
+    font-weight: 900;
+    line-height: 2;
+    padding-inline: 5rem;
+}
+
+
+.FAQsContactWrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.contactBox {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+
+.contactBox span h3 {
+    font-size: 1.5em;
+    font-weight: 800;
+    line-height: 1;
+}
+
+
+.contactBox img {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+}
+
+
+.contactBox span p:hover {
+    color: #FF9F1C;
+    cursor: pointer;
+    text-decoration: underline;
+    transform: scale(1.2);
+    transition: transform ease-in-out 0.3s ;
+}
+
+/* FAQs section styling ends here */
+
+
+/* footer styling starts here */
+
+.footerContainer {
+    width: 100%;
+    background-color: #000;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+
+.footerContainer p {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1.2;
+}
+
+
+/* footer styling ends here */

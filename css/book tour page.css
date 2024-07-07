@@ -1,0 +1,149 @@
+/* form section header styling starts here */
+
+.formSectionHeader{
+    width: 100%;
+    background-image: url(/image/booking\ tour\ background.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-attachment: fixed;
+}
+
+
+.formSectionHeader h1, h3, h5, p {
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    color: #fff;
+}
+
+.formSectionHeader h1 {
+    font-size: 4em;
+    font-weight: 900;
+    line-height: 1.7;
+    margin: 0;
+    padding-top: 2em;
+}
+
+
+.formSectionHeader em,  p {
+    color: #FF9F1C;
+    font-size: 1.5em;
+}
+
+.formSectionHeader h3 {
+    font-size: 2em;
+    font-weight: 900;
+    line-height: 1.7;
+    margin: 0;
+    padding-top: 1em;
+}
+
+.formSectionHeader h5 {
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 1.7;
+    padding-bottom: 1em;
+}
+
+/* form section header styling ends here */
+
+
+/* form container styling starts here */
+
+.formContainer {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 3rem;
+}
+
+form {
+    border: 1px solid #ccc;
+    padding-inline: 3em;
+    padding-block: 2.5em;
+    border-radius: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+input[type="text"], input[type="tel"], input[type="email"], input[type="number"], input[type="date"] {
+    padding: 1em;
+    width: 300px;
+    margin-bottom: 1.5rem;
+}
+
+
+input {
+    border: none;
+    border-radius: 1.5em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+label {
+    color: #FF9F1C;
+    display: block;
+    padding-bottom: 0.5em;
+    font-weight: 900;
+}
+
+
+/* form container button styling starts here */
+
+.submitBtn {
+    width: 300px;
+    padding: 1em;
+    margin-top: 2em;
+    border: 1px solid #fff;
+    border-radius: 1em;
+    background-color: #FF9F1C;
+    cursor: pointer;
+}
+
+
+.submitBtn a {
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+
+.submitBtn:hover {
+    background-color: transparent;
+    transform: scale(1.2);
+    transition: transform ease-in-out 0.5s;
+}
+
+
+.submitBtn a:hover {
+    color: rgb(91, 240, 5);
+    font-size: initial;
+}
+
+/* form container button styling starts here */
+/* form container styling ends here */
+
+
+/* footer styling starts here */
+
+.footerContainer {
+    width: 100%;
+    background-color: #000;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+
+.footerContainer p {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1.2;
+}
+
+
+/* footer styling ends here */
+
