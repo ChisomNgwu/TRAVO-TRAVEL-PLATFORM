@@ -44,6 +44,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     font-size: 1.5rem;
     background-color: rgba(0, 0, 0, 0.5);
     color: rgba(245, 244, 244, 0.205);
@@ -130,12 +131,14 @@
 
 .feedbackSlideItem i {
     position: absolute;
-    top: 1616px;
+    top: 1600px;
+    bottom: 100;
     margin: 0 20rem;
-    font-size: 5rem;
+    font-size: 7rem;
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
+    flex-wrap: wrap ; 
 }
 
 
@@ -193,6 +196,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 10rem;
 }
 
